@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Logs
+logs/
+*/logs/
+
+# OS
+.DS_Store
+
+# IDE
+.claude/
+.vscode/
+.idea/
+
+# Evaluation outputs
+inspect-logs/
+evaluation/checkpoint_info.json
+evaluation/baseline_results.json

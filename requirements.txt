@@ -1,0 +1,12 @@
+# Pinned top-level dependencies (Python 3.11). Install with: python -m pip install -r requirements.txt
+tinker==0.39.0
+tinker-cookbook==0.6.1
+inspect-ai==0.3.170
+inspect-evals==0.3.106
+instruction-following-eval @ git+https://github.com/josejg/instruction_following_eval@0c495b2f95155e8b10acb919ae283bfb4d5be6e2
+datasets==4.8.4
+openai==2.30.0  # needed by the inspect_evals task registry
+math-verify==0.9.0
+antlr4-python3-runtime==4.11.0
+sympy==1.14.0
+pylatexenc==2.11
